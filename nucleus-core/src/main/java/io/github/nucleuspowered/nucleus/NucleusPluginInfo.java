@@ -13,7 +13,7 @@ public final class NucleusPluginInfo {
     private NucleusPluginInfo() {}
 
     // This isn't going to change now - will break permissions if we have the token.
-    public static final String ID = "nucleus";
+    public static final String ID = "nuclei";
 
     public static final String NAME = "@name@";
     public static final String VERSION = "@version@";

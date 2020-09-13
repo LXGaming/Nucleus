@@ -105,7 +105,7 @@ public class StoreProcessor extends AbstractProcessor {
 
             // Write this file
             try {
-                FileObject fo = this.processingEnv.getFiler().createResource(StandardLocation.CLASS_OUTPUT, "assets.nucleus", "classes.json");
+                FileObject fo = this.processingEnv.getFiler().createResource(StandardLocation.CLASS_OUTPUT, "assets.nuclei", "classes.json");
                 try (Writer os = fo.openWriter()) {
                     os.write(new GsonBuilder().setPrettyPrinting().create().toJson(result));
                     os.flush();
